@@ -1,0 +1,47 @@
+#clockcontainer {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.gif) no-repeat;
+    background-size: 100%;
+    margin: auto;
+
+}
+
+#hour,
+#min,
+#sec {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hour {
+    width: 1.8%;
+    height: 22%;
+    top: 28%;
+    left: 49.2%;
+    opacity: 0.8;
+
+
+}
+
+#min {
+    width: 1.6%;
+    height: 30%;
+    top: 20%;
+    left: 49.2%;
+
+    opacity: 0.8;
+}
+
+#sec {
+    width: 1%;
+    height: 34%;
+    top: 15%;
+    left: 49.5%;
+
+    opacity: 0.8;
+}
